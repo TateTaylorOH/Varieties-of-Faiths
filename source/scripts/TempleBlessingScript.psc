@@ -1,17 +1,12 @@
-Scriptname TempleBlessingScript extends ObjectReference Conditional  
+Scriptname TempleBlessingScript extends ObjectReference Conditional
 
-Spell Property TempleBlessing  Auto  
+Message Property AltarRemoveMsg Auto
+Message Property BlessingMessage Auto
+Spell Property TempleBlessing Auto 
 
-Event OnActivate(ObjectReference akActionRef)
-
-	TempleBlessing.Cast(akActionRef, akActionRef)
-	if akActionRef == Game.GetPlayer()
-		AltarRemoveMsg.Show()
-		BlessingMessage.Show()
-	endif
-
+Event OnActivate(ObjectReference actronaut)
+	DES_FaithScript faith = Quest.getQuest("DES_FaithQuest") as DES_FaithScript
+	faith.shrineBless(self, actronaut as Actor)
 EndEvent
 
-Message Property BlessingMessage  Auto  
 
-Message Property AltarRemoveMsg  Auto  
