@@ -3,11 +3,10 @@ Scriptname DA06HammerTriggerScript extends TempleBlessingScript
 ObjectReference Property ShagrolsHammer Auto
 ReferenceAlias Property DA06ShagrolsHammerAlias Auto
 ObjectReference Property Volendrung Auto
-Quest Property DA06 Auto
-
+QF_DA06_0003B681 Property DA06 Auto
 
 Event OnActivate (ObjectReference ActionRef)
-	if DA06.GetStage() == 120
+	if (DA06.GetStage() == 120 && DA06.DA06HammerTriggerRef == self)
 		if ActionRef == Game.GetPlayer()
 			Game.DisablePlayerControls()
 			Game.GetPlayer().RemoveItem(DA06ShagrolsHammerAlias.GetReference(), 1)
