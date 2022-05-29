@@ -10,6 +10,7 @@ Spell Property DES_AltarCureDiseaseSpell Auto
 
 ;prayer
 Spell Property Prayer Auto
+Message Property DES_PrayerHelpMessage Auto
 Spell[] Property recentBlessings Auto hidden
 Message[] Property recentMessages Auto hidden
 string[] Property godNames Auto hidden
@@ -35,6 +36,7 @@ endFunction
 function bless(Actor target, Spell blessing, Message blessingMessage = None, string godName = "")
 	if(target == PlayerRef && !PlayerRef.hasSpell(Prayer))
 		PlayerRef.addSpell(Prayer)
+		DES_PrayerHelpMessage.showAsHelpMessage("Prayer", 5.0, 1.0, 1)
 	endIf
 	if(blessing && target)
 		blessing.cast(target, target)
