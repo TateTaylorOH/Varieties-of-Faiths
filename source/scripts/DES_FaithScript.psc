@@ -4,6 +4,11 @@ Actor Property PlayerRef Auto
 Message Property DES_AltarNoBlessingMsg Auto
 Message Property AltarRemoveMsg Auto
 
+;cure disease
+GlobalVariable Property Survival_ModeEnabledShared Auto
+Spell Property DES_AltarCureDiseaseSpell Auto
+
+;prayer
 Spell Property Prayer Auto
 Spell[] Property recentBlessings Auto hidden
 Message[] Property recentMessages Auto hidden
@@ -43,7 +48,10 @@ function bless(Actor target, Spell blessing, Message blessingMessage = None, str
 	endIf
 endFunction
 
-function shrineBless(TempleBlessingScript shrine, Actor target)
+function shrineBless(TempleBlessingScript shrine, Actor target, bool cureDisease = true)
+	if(cureDisease && !runningSurvival())
+		DES_AltarCureDiseaseSpell.cast(target, target)
+	endIf
 	bless(target, shrine.TempleBlessing, shrine.BlessingMessage, shrine.godName)
 endFunction
 
@@ -112,3 +120,9 @@ Event OnControlUp(string control, float HoldTime)
 	longPress = HoldTime >= longPressTime
 	released = true
 EndEvent
+
+bool function runningSurvival()
+	bool survival = Survival_ModeEnabledShared.getValue() != 0.0
+	;add stuff for other mods - sunhelm and shit
+	return survival
+endFunction
