@@ -1,0 +1,26 @@
+===NEEDS NEW MODEL===
+Boethiah - fix collision
+Tsun
+Ruptga - recolor cloth to be more purple and have stars
+Tava
+Y'ffre - fix collision
+
+===BLESSING - IMPLEMENTATION===
+-implement Molag Bal perk
+-fix namira visuals
+-implement Nocturnal perk
+-implement peryite disease monitoring script and applied buffs
+-implement sheogorath blessings, tie blessing selection to quest with rt interval rerolling - separate variable controls if madgod is valid, else, fall back to random. add prayer suppression.
+    Blessing of the Painlovers - The more damage you take the more damage you output.
+    Blessing of the Firelovers - Being burned heals you.
+    Blessing of the Paranoid - You see enemies all around you.
+    Blessing of the Musician - Your Voice is drowned out by the music. You cannot Shout.
+    (5%, only apply while WJ in inventory) Blessing of the Madgod - Wabbajack is free to use.
+-script syrabane's spell reflection
+-implement sithis perk
+    within the last 3 days -> improved
+    over 1 week ago -> stagnant
+-implement jode perk
+-implement jone script
+-implement ruptga perk
+-implement WSEF perk - add 1 to Hoonding effect if WSEF not present

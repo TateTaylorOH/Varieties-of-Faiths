@@ -1,0 +1,52 @@
+Akatosh - You move 10% faster.
+Arkay - Increases your health by 25 points.
+Dibella - Illusion spells cost 10% less to cast.
+Julianos - Increases your Magicka by 25 points.
+Kynareth - Increases your stamina by 25 points.
+Mara - Restoration spells cost 10% less to cast.
+Stendarr - Block 10% more damage with your shield.
+Talos - Time between shouts is reduced 20%.
+Zenithar - Prices are 10% better.
+
+Azura - Reduce damage by 10% while a ward is active. Magicka regenerates 10% slower.
+Boethiah - Weapons deal 20% more damage. Armor is 20% less effective.
+Clavicus Vile - The highest of H/S/M is increased by 10 points, and the lowest is decreased by 10 points.
+Hermaeus Mora - Gain 5% more experience. Spells and power attacks cost 10% more.
+Hircine - Deal additional damage while in beast form. Spells are 10% weaker.
+Malacath - Health is increased by 50 points. Prices are 20% worse.
+Mehrunes Dagon - Destruction is 10% stronger. Restoration is 10% weaker.
+Mephala - Sneak attacks do 25% more damage. Health is reduced by 25 points.
+Meridia - Fire and sun spells are 10% more effective against the undead. Melee attacks burn the undead for 5 points.
+Molag Bal - weapons and spells are 10% more effective against targets with less health than you, and 10% less effective against targets with more health than you.
+Namira - Enemies lose 5 points of health per second in combat. You lose 1 point of health per second in combat.
+Nocturnal - Sneaking is twice as effective against non-enemies. Sneak attacks do 20% less damage.
+Peryite - Gain 10 points of H/S/M per disease. Peryite does not cure disease.
+Sanguine - Regenerate stamina 30% faster while under the effects of alcohol, and 50% slower while not.
+Sheogorath - You get one of four random blessings. Prayer is suppressed.
+     Blessing of the Painlovers - The more damage you take the more damage you output.
+     Blessing of the Firelovers - Being burned heals you.
+     Blessing of the Paranoid - You see enemies all around you.
+     Blessing of the Musician - Your Voice is drowned out by the music. You cannot Shout.
+Vaermina - Illusion spells are 10% stronger. Magicka is reduced by 25 points.
+Jyggalag - No blessing. Just dispel existing ones.
+
+Alduin - invert Akatosh. removes prayer.
+Kyne - copy Kynareth
+Shor - copy Talos
+Tsun - copy Zenithar
+
+Auriel - You are 10% more effective with missile weapons.
+Jephre - Speechcraft is improved by 10 points.
+Magnus - Absorb 10% of magicka from hostile spells.
+Phynaster - Resist 10% of magic.
+Syrabane - Reflect 10% of damage. Magic is countered by a small burst.
+Y'ffre - copy Jephre
+
+Sithis - Improved skills are increased by 30%. Stagnant skills are reduced by 20%.
+    within the last 8 hours -> improved
+    over 1 week ago -> stagnant
+Jode - Eating moon sugar restores 10 points of magicka and decreases your magic resistance by 1%.
+Jone - Moon sugar is 10 times as effective, but you do not regenerate magicka.
+Ruptga - doomstones are 50% stronger.
+HoonDing - weapons swing 10% faster.
+Tava - copy Kynareth
